@@ -16,6 +16,12 @@
       <root url="jar://$PROJECT_DIR$/lib/jogl-all-natives-linux-armv6hf.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jogl-all-natives-macosx-universal.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/gluegen-rt.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/minim/library/jl1.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/minim/library/jsminim.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/minim/library/minim.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/minim/library/mp3spi1.9.5.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/minim/library/tritonus_aos.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/minim/library/tritonus_share.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
