@@ -7,6 +7,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public abstract class BaseGame extends PApplet {
+    public static void main(String args[]) {
+        PApplet.main("ExampleApplet");
+    }
+
     /**
      * Actors represent something or someone,
      * and can consist of one or more states,
