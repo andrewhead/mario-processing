@@ -259,9 +259,9 @@ public class ExampleApplet extends BaseGame { // Label: 1; Control: ; Var: ; Typ
             handleKey('A'); // Label: 132; Control: 128; Var: ; Type: ; Call: ; Effect: ; Structure: 128; Implementation: ; Annotation: ; (ex. A,B = (dependencies on A and B)
             handleKey('S'); // Label: 133; Control: 128; Var: ; Type: ; Call: ; Effect: ; Structure: 128; Implementation: ; Annotation: ; (ex. A,B = (dependencies on A and B)
             handleKey('D'); // Label: 134; Control: 128; Var: ; Type: ; Call: ; Effect: ; Structure: 128; Implementation: ; Annotation: ; (ex. A,B = (dependencies on A and B)
-            setImpulseCoefficients(DAMPENING, DAMPENING); // Label: 135; Control: 128; Var: ; Type: ; Call: ; Effect: ; Structure: 128; Implementation: ; Annotation: ; (ex. A,B = (dependencies on A and B)
-            setForces(0, DOWN_FORCE); // Label: 136; Control: 128; Var: ; Type: ; Call: ; Effect: ; Structure: 128'; Implementation: ; Annotation: ; (ex. A,B = (dependencies on A and B)
-            setAcceleration(0, ACCELERATION); // Label: 137; Control: 128; Var: ; Type: ; Call: ; Effect: ; Structure: 128; Implementation: ; Annotation: ; (ex. A,B = (dependencies on A and B)
+            setImpulseCoefficients(DAMPENING, DAMPENING); // Label: 135; Control: 128; Var: 7; Type: ; Call: ; Effect: ; Structure: 128; Implementation: ; Annotation: ; (ex. A,B = (dependencies on A and B)
+            setForces(0, DOWN_FORCE); // Label: 136; Control: 128; Var: 5; Type: ; Call: ; Effect: ; Structure: 128'; Implementation: ; Annotation: ; (ex. A,B = (dependencies on A and B)
+            setAcceleration(0, ACCELERATION); // Label: 137; Control: 128; Var: 6; Type: ; Call: ; Effect: ; Structure: 128; Implementation: ; Annotation: ; (ex. A,B = (dependencies on A and B)
         } // Label: 128
 
         /**
@@ -428,8 +428,8 @@ public class ExampleApplet extends BaseGame { // Label: 1; Control: ; Var: ; Typ
         Koopa(float x, float y) { // Label: 200; Control: ; Var: ; Type: 200; Call: 64; Effect: 203,204,205; Structure: 199; Implementation: 201; Annotation: ; (ex. A,B = (dependencies on A and B)
             super("Koopa Trooper"); // Label: 201; Control: 200; Var: ; Type: ; Call: ; Effect: ; Structure: 200; Implementation: ; Annotation: ; (ex. A,B = (dependencies on A and B)
             setStates(); // Label: 202; Control: 200; Var: ; Type: 206; Call: ; Effect: ; Structure: 200; Implementation: ; Annotation: ; (ex. A,B = (dependencies on A and B)
-            setForces(-0.25f, DOWN_FORCE); // Label: 203; Control: 200; Var: ; Type: ; Call: ; Effect: ; Structure: 200; Implementation: ; Annotation: ; (ex. A,B = (dependencies on A and B)
-            setImpulseCoefficients(DAMPENING, DAMPENING); // Label: 204; Control: 200; Var: ; Type: ; Call: ; Effect: ; Structure: 200; Implementation: ; Annotation: ; (ex. A,B = (dependencies on A and B)
+            setForces(-0.25f, DOWN_FORCE); // Label: 203; Control: 200; Var: 5; Type: ; Call: ; Effect: ; Structure: 200; Implementation: ; Annotation: ; (ex. A,B = (dependencies on A and B)
+            setImpulseCoefficients(DAMPENING, DAMPENING); // Label: 204; Control: 200; Var: 7; Type: ; Call: ; Effect: ; Structure: 200; Implementation: ; Annotation: ; (ex. A,B = (dependencies on A and B)
             setPosition(x, y); // Label: 205; Control: 200; Var: 200; Type: ; Call: ; Effect: ; Structure: 200; Implementation: ; Annotation: ; (ex. A,B = (dependencies on A and B)
         } // Label: 200
 
